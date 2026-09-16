@@ -41,7 +41,7 @@ export const locales = {
 
 export type Lang = keyof typeof locales;
 
-export const DEFAULT_LANG: Lang = 'id';
+export const DEFAULT_LANG: Lang = 'en';
 
 export const LANGS = Object.keys(locales) as Lang[];
 
