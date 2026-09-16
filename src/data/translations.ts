@@ -9,13 +9,13 @@ import type { Lang } from './locales';
 export const translations = {
     en: {
         meta: {
-            title: 'Daniela and Will Travel',
+            title: 'Sudar Blogger',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
             description:
-                "Daniela and Will's travel blog featuring travel guides and tips and tricks for a gap year throughout Europe.",
+                "Sudar Blogger blog featuring travel guides and tips and tricks for a gap year throughout Europe.",
             opengraphDefaultAlt:
-                'Daniela and Will Travel — travel guides from Europe and Southeast Asia.'
+                'Sudar Blogger — travel guides from Europe and Southeast Asia.'
         },
         header: {
             skipLink: 'Skip to content',
@@ -81,26 +81,26 @@ export const translations = {
         }
     },
 
-    es: {
+    id: {
         meta: {
-            title: 'Daniela y Will Travel',
+            title: 'Sudar Blogger',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
             description:
-                'El blog de viajes de Daniela y Will con guías de viaje y consejos para un año sabático por Europa.',
+                'Hanyalah Blogger amatiran dan suka pergi ke alam liar untuk menikmati keindahan ciptaan tuhan.',
             opengraphDefaultAlt:
-                'Daniela y Will Travel — guías de viaje de Europa y el Sudeste Asiático.'
+                'Sudar Blogger — Share Tempat Menarik di Indonesia dan Sekitarnya.'
         },
         header: {
-            skipLink: 'Saltar al contenido',
-            home: 'Inicio',
-            menu: 'Menú',
-            close: 'Cerrar'
+            skipLink: 'Lewati ke konten',
+            home: 'Home',
+            menu: 'Menu',
+            close: 'Tutup'
         },
         readingTime: {
-            underMinute: 'Menos de 1 minuto para leer',
-            minute: '1 minuto para leer',
-            other: '{{ minutes }} minutos para leer'
+            underMinute: 'Waktu baca kurang dari 1 menit',
+            minute: '1 menit untuk membaca',
+            other: '{{ minutes }} menit membaca'
         },
         feeds: {
             info: 'Este es un feed RSS. Copia y pega la URL en tu lector de feeds. Visita <a href="https://aboutfeeds.com">About Feeds</a> para obtener más información sobre RSS.',
