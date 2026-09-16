@@ -30,18 +30,18 @@ export const locales = {
         locale: 'en-ca',
         postSegment: 'writing'
     },
-    es: {
+    id: {
         dir: 'ltr',
-        label: 'Spanish',
-        shorthand: 'ES',
-        locale: 'es-mx',
-        postSegment: 'escritos'
+        label: 'Indonesia',
+        shorthand: 'ID',
+        locale: 'id-id',
+        postSegment: 'blog'
     }
 } as const satisfies Record<string, Locale>;
 
 export type Lang = keyof typeof locales;
 
-export const DEFAULT_LANG: Lang = 'en';
+export const DEFAULT_LANG: Lang = 'id';
 
 export const LANGS = Object.keys(locales) as Lang[];
 
