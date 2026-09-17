@@ -27,14 +27,14 @@ export const locales = {
         // en-gb was wrong in both <html lang> and og:locale. It also drives
         // Intl date formatting, which now reads "March 10, 2025" rather than
         // "10 March 2025".
-        locale: 'en-ca',
-        postSegment: 'writing'
+        locale: 'en-id',
+        postSegment: 'blog'
     },
     id: {
         dir: 'ltr',
         label: 'Indonesia',
         shorthand: 'ID',
-        locale: 'id-id',
+        locale: 'id-en',
         postSegment: 'blog'
     }
 } as const satisfies Record<string, Locale>;
